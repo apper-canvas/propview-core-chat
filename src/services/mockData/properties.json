@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1",
+    "title": "Modern Downtown Loft",
+    "price": 450000,
+    "address": "123 Main Street, Downtown District, City Center 10001",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "sqft": 1200,
+    "propertyType": "Condo",
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1560449752-30c3b6b8c5e1?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-444c5d2c9c3d?w=800&q=80",
+      "https://images.unsplash.com/photo-1560449752-444c5d2c9c3d?w=800&q=80"
+    ],
+    "description": "Stunning modern loft in the heart of downtown with floor-to-ceiling windows, exposed brick walls, and premium finishes throughout. This sophisticated residence offers an open-concept living space perfect for entertaining, with a gourmet kitchen featuring stainless steel appliances and granite countertops.",
+    "features": [
+      "Floor-to-ceiling windows",
+      "Exposed brick walls",
+      "Hardwood floors",
+      "Stainless steel appliances",
+      "Granite countertops",
+      "In-unit washer/dryer",
+      "Building gym and rooftop deck",
+      "24/7 concierge",
+      "Parking space included"
+    ],
+    "listingDate": "2024-01-15T00:00:00.000Z",
+    "coordinates": {
+      "lat": 40.7128,
+      "lng": -74.0060
+    }
+  },
+  {
+    "id": "2",
+    "title": "Charming Victorian Home",
+    "price": 675000,
+    "address": "456 Oak Avenue, Historic Neighborhood, Riverside 10002",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "sqft": 2400,
+    "propertyType": "House",
+    "images": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=80",
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80",
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80"
+    ],
+    "description": "Beautifully restored Victorian home featuring original architectural details, updated modern amenities, and a spacious backyard perfect for family gatherings. Located in a quiet tree-lined neighborhood with excellent schools and parks nearby.",
+    "features": [
+      "Original hardwood floors",
+      "Crown molding and trim",
+      "Updated kitchen with island",
+      "Master suite with walk-in closet",
+      "Fenced backyard",
+      "Two-car garage",
+      "Central air conditioning",
+      "Fireplace in living room",
+      "Walk to schools and parks"
+    ],
+    "listingDate": "2024-01-12T00:00:00.000Z",
+    "coordinates": {
+      "lat": 40.7589,
+      "lng": -73.9851
+    }
+  },
+  {
+    "id": "3",
+    "title": "Luxury Penthouse Suite",
+    "price": 1250000,
+    "address": "789 Skyline Drive, Uptown Heights, Metropolitan 10003",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "sqft": 2800,
+    "propertyType": "Condo",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=800&q=80",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&q=80"
+    ],
+    "description": "Spectacular penthouse with panoramic city views from every room. This luxury residence features premium finishes, a private terrace, and access to building amenities including infinity pool, spa, and private dining room. Perfect for sophisticated urban living.",
+    "features": [
+      "Panoramic city views",
+      "Private terrace with outdoor kitchen",
+      "Floor-to-ceiling windows",
+      "Custom Italian cabinetry",
+      "Marble bathrooms",
+      "Wine storage room",
+      "Smart home automation",
+      "Building infinity pool and spa",
+      "Valet parking and storage"
+    ],
+    "listingDate": "2024-01-18T00:00:00.000Z",
+    "coordinates": {
+      "lat": 40.7505,
+      "lng": -73.9934
+    }
+  },
+  {
+    "id": "4",
+    "title": "Cozy Starter Home",
+    "price": 285000,
+    "address": "321 Maple Lane, Suburban Gardens, Peaceful Valley 10004",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "sqft": 1400,
+    "propertyType": "House",
+    "images": [
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80",
+      "https://images.unsplash.com/photo-1448630360428-65456885c650?w=800&q=80",
+      "https://images.unsplash.com/photo-1416331108676-a22ccb276e35?w=800&q=80",
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?w=800&q=80"
+    ],
+    "description": "Perfect starter home in a friendly neighborhood with great schools and community amenities. This well-maintained property offers comfortable living spaces, a private backyard, and room to grow. Ideal for first-time homebuyers or growing families.",
+    "features": [
+      "Open floor plan",
+      "Updated kitchen appliances",
+      "Laminate flooring throughout",
+      "Large master bedroom",
+      "Fenced backyard with deck",
+      "Single-car garage",
+      "Central heating and cooling",
+      "Near schools and shopping",
+      "Quiet residential street"
+    ],
+    "listingDate": "2024-01-10T00:00:00.000Z",
+    "coordinates": {
+      "lat": 40.6892,
+      "lng": -74.0445
+    }
+  },
+  {
+    "id": "5",
+    "title": "Waterfront Townhouse",
+    "price": 850000,
+    "address": "654 Harbor View Terrace, Marina District, Coastal Bay 10005",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 2100,
+    "propertyType": "Townhouse",
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+    ],
+    "description": "Stunning waterfront townhouse with private dock and breathtaking bay views. This contemporary home features an open concept design, gourmet kitchen, and multiple outdoor spaces perfect for entertaining. Wake up to sunrise over the water every morning.",
+    "features": [
+      "Private dock and boat slip",
+      "Panoramic water views",
+      "Chef's kitchen with island",
+      "Master suite with water views",
+      "Multiple decks and patios",
+      "Two-car garage",
+      "Waterfront community amenities",
+      "Walking distance to marina",
+      "Central air and heating"
+    ],
+    "listingDate": "2024-01-20T00:00:00.000Z",
+    "coordinates": {
+      "lat": 40.7282,
+      "lng": -74.0776
+    }
+  }
+]
