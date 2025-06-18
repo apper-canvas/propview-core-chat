@@ -2,9 +2,9 @@ import React, { useContext, useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { AnimatePresence, motion } from "framer-motion";
-import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/Button";
-import { AuthContext } from "@/contexts/AuthContext";
+import ApperIcon from "./components/ApperIcon";
+import Button from "./components/atoms/Button";
+import { AuthContext } from "./App";
 import { routes } from "@/config/routes";
 export default function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
