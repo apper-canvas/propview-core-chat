@@ -1,41 +1,21 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import { ToastContainer } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
-import Layout from './Layout'
-import { routeArray } from './config/routes'
+import React, { createContext, useEffect, useState } from "react";
+import { BrowserRouter, Navigate, Route, Routes, useNavigate } from "react-router-dom";
+import { Provider } from "react-redux";
+import { store } from "./store/store";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import AppContent from "./AppContent";
+// Create auth context
+export const AuthContext = createContext(null);
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen">
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Navigate to="/search" replace />} />
-            {routeArray.map(route => (
-              <Route
-                key={route.id}
-                path={route.path}
-                element={<route.component />}
-              />
-            ))}
-          </Route>
-        </Routes>
-        <ToastContainer
-          position="top-right"
-          autoClose={3000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="light"
-          className="z-[9999]"
-        />
-      </div>
-    </BrowserRouter>
-  )
+    <Provider store={store}>
+      <BrowserRouter>
+        <AppContent />
+      </BrowserRouter>
+    </Provider>
+  );
 }
 
-export default App
+export default App;
